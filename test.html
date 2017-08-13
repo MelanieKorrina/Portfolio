@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatable" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Framework Test Page</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap2.min.css">
+  <script type="text/javascript" src="js/jQuery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap2.min.js"></script>
+</head>
+<body>
+
+  <!--Navigation Bar-->
+      <div class="navbar navbar-inverse navbar-static-top">
+        <div class= "container">
+          <div class="navbar-header">
+            <a href="test.html" class="navbar-brand">Home</a>
+            <a href="test.html" class="navbar-brand">Works</a>
+            <a href="test.html" class="navbar-brand">About Me</a>
+            <a href="test.html" class="navbar-brand">Contact Me</a>
+			    </div>
+        </div>
+      </div>
+
+<!--Rows-->
+  <div class="container">
+    <div class= "row">
+      <div class="col-md-12 text-center">
+        <h1>Melanie Gipson</h1>
+        <h5>Professional Site</h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img class= "img-responsive" src="http://via.placeholder.com/1110x350">
+      </div>
+    </div>
+    <div class= "row">
+      <div class="col-md-12">
+        <h3>Featured Work</h3>
+      </div>
+    </div>
+      <div class= "row">
+        <div class="col-md-6">
+          <img class= "img-responsive" src="http://via.placeholder.com/555x300" data-toggle="modal" data-target="#project1">
+          <h3>Favorite App</h3>
+          <p>
+            <a class= "portfolio-link" href="https://github.com">Link to Website</a>
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img class= "img-responsive" src="http://via.placeholder.com/555x300" data-toggle="modal" data-target="#project2">
+          <h3>Portfolio Framework</h3>
+          <p>
+            <a class= "portfolio-link" href= "framework/index.html">framework</a>
+          </p>
+        </div>
+      </div>
+  </div>
+            <!--Modal-->
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                  <img class="img-responsive" src="http://via.placeholder.com/555x300">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal#2-->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h4 class="modal-title" id="myModalLabel2">Favorite App Page</h4>
+                  </div>
+                  <div class="modal-body">
+                    <img class="img-responsive" src="http://via.placeholder.com/555x300">
+                      This was my first project in this class. I learned a lot about HTML and CSS. lfkdjlfdkkldffjfm
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+</body>
+</html>
